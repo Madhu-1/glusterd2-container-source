@@ -1,0 +1,9 @@
+[Unit]
+Description=GlusterD-2.0 is the distributed management framework to be used for GlusterFS-4.0
+
+[Service]
+Type=glusterd2
+ExecStart=/usr/bin/glusterd2
+
+[Install]
+WantedBy=multi-user.target
